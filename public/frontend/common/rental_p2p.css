@@ -1,0 +1,563 @@
+/* p2p Aad post form */
+.alRentalSinglePageView .single_product-input input {
+    width: 48%;
+    display: inline-block;
+    border: none;
+    height: auto;
+    padding: 30px 0px 10px 4px;
+    font-size: 13px;
+}
+
+.alRentalSinglePageView .single_product-input {
+    border: 1px solid#cfc9c9;
+    width: 56%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.alRentalSinglePageView .single_cart-temp_label {
+    width: 56%;
+    position: absolute;
+    z-index: 1;
+}
+
+.alRentalSinglePageView .single_cart-temp_label label {
+    display: inline-block;
+    width: 46%;
+    font-size: 12px;
+    padding: 6px 0px 0px 6px;
+    color: #000;
+}
+
+.alRentalSinglePageView .single_product-input input:nth-child(1) {
+    border-right: 1px solid#cfc9c9;
+    border: 1px solid#cfc9c9;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.disclaimer {
+    font-style: italic;
+}
+
+.cate-item img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.cate-item h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+a.backArroww.position-absolute {
+    left: 10px;
+    color: #000;
+}
+
+.alPostBoxOuter ul {
+    /*border: 1px solid rgba(14,4,5,.2);*/
+    position: relative;
+}
+
+.alPostBoxOuter ul li {
+    list-style: none;
+}
+
+/* .alPostBoxOuter ul li a {
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    align-items: center;
+    line-height: 2;
+    color: rgba(0, 47, 52, .64);
+    border: 1px solid rgba(14, 4, 5, .2);
+    padding: 10px;
+    height: 135px;
+} */
+
+.alPostBoxOuter ul li a:hover {
+    text-decoration: none;
+    background: linear-gradient(180deg, #e1dfdf 0%, #efe7e7 100%);
+} 
+
+.alPostBoxOuter a:hover {
+    text-decoration: none;
+}
+
+.alPostBoxOuter a {
+    color: #777;
+    position: relative;
+}
+
+.alPostItemsData {
+    width: 100%;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+
+.alPostItemsData label {
+    color: #002f34;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.alPostItemsData .alInput {
+    appearance: none;
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgb(0 47 52 / 64%);
+}
+
+.dark .alPostItemsData label,
+.dark .cate-item h3 {
+    color: #fff;
+}
+
+.dark .form-control,
+.dark .btn,
+.dark .custom-select {
+    background-color: transparent;
+    color: #fff;
+    /* border-color: #444242 !important; */
+}
+
+body.dark {
+    background-color: #232323;
+    color: #eee
+}
+
+.dark .alPostBoxOuter ul,
+.dark .alPostBoxOuter ul li a,
+.dark .border {
+    border-color: #444242 !important;
+}
+
+.dark a.backArroww.position-absolute,
+.dark .alPostBoxOuter a {
+    color: #fff;
+}
+
+.dark .alPostBoxOuter ul li a:hover {
+    background: #2b2b2b !important;
+}
+
+.dark .bg-light {
+    background-color: #2b2b2b !important;
+}
+
+.dark select {
+    background-color: #2b2b2b !important
+}
+
+.alCategoryItemsHead a {
+    color: #f00;
+    font-size: 12px;
+}
+
+body.al_body_template_four.p2p-module form input.form-control {
+    width: 100%;
+    margin: 0;
+}
+
+body.al_body_template_four.p2p-module .input-group.mb-2 input {
+    width: 90%;
+}
+
+.checkbox.checkbox-success {
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.checkbox.checkbox-success input {
+    width: auto !important;
+    height: 20px;
+}
+
+.alPostBoxOuter.offset-md-2.col-md-8.mt-4.border.border-rounded.px-0 {
+    margin-bottom: 0px;
+}
+
+.select2-results__option {
+    display: block;
+}
+
+body.al_body_template_nine .alPostBoxOuter ul li a.active {
+    background: #efe7e7;
+    border: unset;  
+    position: relative;
+}
+
+
+body.al_body_template_nine .alPostBoxOuter ul li a.active h3 {
+    color: #000;
+}
+
+.form_top {
+    border-bottom: 0;
+}
+
+.alPostHead h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.alPostHead h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.Register_form {
+    margin-top: 40px;
+}
+
+.start_form_register {
+    /* box-shadow: 0 0 10px #ccc;
+background: #fff; */
+}
+
+.start_form_register .item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 95%;
+    margin: 30px AUTO;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 14px;
+}
+
+.start_form_register .alPostHead {
+    background: #fff !important;
+}
+
+.start_form_register .alPostBoxOuter h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.start_form_register textarea.form-control {
+    resize: none;
+    height: 150px;
+    background: #f5f5f570;
+}
+
+body.al_body_template_nine.p2p-module form input.form-control {
+
+    background: #f5f5f570;
+}
+
+.start_form_register .alPostItemsData h5 {
+    font-weight: 600;
+    text-transform: capitalize !important;
+    letter-spacing: 0;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.start_form_register .alPostItemsData .input-group {
+    flex-wrap: nowrap !important;
+}
+
+.start_form_register .form-group.choose_file {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background: #f5f5f570;
+}
+
+.dark .start_form_register .item,
+.dark .start_form_register .alPostHead {
+    background: #fff0 !important;
+}
+
+.dark .start_form_register .item {
+    background: #fff0 !important;
+    box-shadow: 0 0 10px #000;
+}
+
+.dark .alPostHead h3,
+.dark .start_form_register .alPostBoxOuter h6 {
+    color: #fff;
+}
+
+.dark .alPostHead h3:after {
+    background: #fff;
+}
+
+body.al_body_template_nine.p2p-module.dark form input.form-control,
+.dark .start_form_register textarea.form-control,
+.dark .start_form_register .form-group.choose_file {
+    background: transparent;
+}
+.cate-item img {
+width: 120px;
+height: 120px;
+padding: 0;
+border: 1px solid #ccc;
+border-radius: 8px;
+margin: 0 auto 0px;
+}
+.alPostBoxOuter ul li {
+list-style: none;
+margin-bottom: 31px;
+width: 16%;
+}
+.alPostBoxOuter ul {
+/* border: 1px solid rgba(14,4,5,.2); */
+position: relative;
+/* display: flex;
+flex-wrap: wrap; */
+margin-top:40px!important;
+justify-content: center;
+}
+ .alPostBoxOuter ul li a.active:before {
+color: green;
+position: absolute;
+top: 1px;
+left: 17px;
+content: '\f058';
+font-family: 'FontAwesome'!important;
+font-size: 25px;
+line-height: 1;
+background: #fff;
+box-shadow: 0 0 2px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .alPostBoxOuter ul li a.active img {
+border-color: green;
+/* box-shadow: 0 0 7px green; */
+}
+ .alPostBoxOuter ul li a.active .alCategoryItems img {
+position: unset;
+z-index: 1;
+}
+select#category_filter {
+padding: 5px 15px;
+min-width: 170px;
+appearance: none;
+background: transparent;
+border:1px solid #ccc;
+border-radius: 6px;
+}
+.fillter_div{
+position: relative;
+}
+.fillter_div:after {
+position: absolute;
+top: 50%;
+right: 12px;
+transform: translateY(-50%);
+content: '\f107';
+font-family: 'FontAwesome';
+font-size: 15px;
+color: #000;
+}
+.fillter_div span {
+font-size: 18px;
+color: #000;
+padding-right: 10px;
+}
+
+body.dark .fillter_div:after{
+color: #fff;
+}
+.alPostBoxOuter .breadcrumb-item {
+    /* display: flex; */
+    position: relative;
+}
+.alPostBoxOuter .breadcrumb-item::before {
+    font-family: 'FontAwesome';
+    content: "\f105";
+    position: absolute!important;
+    right: -13px!important;
+}
+html body header .header-dropdown li a.sell-btn span {
+    font-size: 14px!important;
+    line-height: 1!important;
+    align-items: center;
+    display: flex!important;
+    background-color: var(--theme-deafult)!important;
+    color: #fff!important;
+    border: 1px solid var(--theme-deafult);
+    padding: 8px 15px;
+    border-radius: 9px;
+    margin-right: -20px!important;
+}
+ .site-header .rightHead  .add_post a.sell-btn span{
+    font-size: 14px!important;
+    line-height: 1!important;
+    align-items: center;
+    display: flex;
+    background-color: var(--theme-deafult)!important;
+    color: #fff;
+    border: 1px solid var(--theme-deafult);
+    padding: 8px 15px;
+    border-radius: 9px;
+ }
+html body header .header-dropdown li a.sell-btn span i{
+    padding-top: 0!important;
+    font-size: 14px!important;
+    color: #fff!important;
+    padding-right: 5px;
+}
+html body header .header-dropdown li{
+    padding-top:0!important;
+    padding-bottom:0!important;
+}
+html body.al_body_template_four  header .header-dropdown li a.sell-btn span{
+    margin-right: 0!important;
+}
+
+@media (max-width:1100px){
+    .alPostBoxOuter ul li {
+    list-style: none;
+    margin-bottom: 31px;
+    width: 25%;
+}
+}
+@media (max-width:767px){
+    .alPostBoxOuter ul li {
+    list-style: none;
+    margin-bottom: 31px;
+    width: 33.33%;
+}
+}
+@media (max-width:576px){
+    .cate-item img {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 auto 0px;
+    max-height: 80px;
+    min-height: 80px;
+}
+.alPostBoxOuter ul li {
+    width: 33.33%;
+    margin-bottom: 15px;
+}
+.alCategoryItemsHead {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.start_form_register .alPostBoxOuter h6{
+    margin-bottom: 10px!important;
+    font-size: 16px;
+}
+.start_form_register .alPostItemsData h5{
+    font-size: 16px;
+}
+.alPostItemsData .col.input-group-prepend {
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+    margin: 10px 0;
+}
+.cate-item h3{
+    font-size:10px;
+}
+.alPostBoxOuter ul li a.active:before{
+    top: -7px;
+    left: -9px;
+}
+html body header .header-dropdown li a.sell-btn span {
+    background-color: transparent!important;
+    border: unset!important;
+    color: #000!important;
+    padding: 0!important;
+    margin: 0;
+    font-size: 20px!important;
+}
+html body header .header-dropdown li a.sell-btn span  i{
+    font-size: 20px!important;
+}
+.top-header .mobile-menu.main-menu .header-dropdown  li.add_post {
+    width: auto;
+}
+.top-header .mobile-menu.main-menu .header-dropdown li.add_post a i {
+    color: #000!important;
+    /* -webkit-text-stroke: 2px #0e0c0c; */
+    font-size: 22px!important;
+    opacity: 0.7;
+}
+
+}
+
+
+body.al_body_template_nine.p2p-module.p2p_module_enable .start_form_register {
+    padding: 40px 0;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .cate-item img{
+    width: 170px;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .category_responsive .slick-next:before, body.al_body_template_nine.p2p-module.p2p_module_enable .category_responsive  .slick-prev:before {
+    font-size: 14px;
+    color: #fff !important;
+}
+body.al_body_template_nine.p2p-module .category_responsive .slick-next, body.al_body_template_nine.p2p-module.p2p_module_enable .category_responsive  .slick-prev {
+    top: 35% !important;
+    background: #000 !important;
+    color: #fff !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .category_responsive .slick-next.slick-disabled:before, .slick-prev.slick-disabled:before {
+    opacity: 1;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .category_responsive .slick-next {
+    right: 0;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .exzoom_nav.side_nav_img {
+    height: 550px;
+    overflow-y: scroll;
+}
+body.al_body_template_nine.p2p-module.p2p_module_enable .alPostBoxOuter ul {
+    padding-left: 38px !important;
+    padding-right: 40px !important;
+}

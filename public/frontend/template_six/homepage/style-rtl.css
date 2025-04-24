@@ -1,0 +1,32 @@
+/* ============================= style arabic web layout style ======================= */
+/* ========= arabic layout home Page ================= */
+body[dir=rtl] .rightHead.ml-auto{
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+body[dir=rtl] button.alMenuClose{right: auto;left: 0;}
+body[dir=rtl] .navbar-brand{margin-right: 0;margin-left: 15px;}
+body[dir=rtl] .alFindSec{padding: 5px;}
+body[dir=rtl] .alFindSec li.border-right.mr-4.pr-3{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    border-right: none !important;
+    border-left: 1px solid #e5e8eb!important;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+body[dir=rtl] .alFindSec li.pr-4{ padding-right: 10px !important;margin-left: 10px;}
+body[dir=rtl] .alUserIcon .onhover-show-div li{text-align: right;}
+body[dir=rtl] .product-box .inner_spacing{text-align: right;}
+body[dir=rtl] .address-input-group label.delivery-head.mb-2{
+    text-align: right;
+}
+body[dir=rtl] .delivery_address button.close{
+    z-index: 9;
+    position: absolute;
+    left: 10px;
+}
+body[dir=rtl] .modal-header .close{
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,22 @@
+.al_body_template_two footer#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0!important;
+}
+.create_box a.btn.btn-solid.mt-2 {
+    height: auto;
+    padding: 5px 20px !important;
+}
+body .footer-theme .sub-title .contact-list li i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.al_body_template_two .footer-theme .sub-title .contact-list li{
+    padding-top: 0;
+    margin-top: 8px;
+}
+.al_body_template_two .footer-theme .sub-title .contact-list li:first-child{
+    margin-top: 0;
+}

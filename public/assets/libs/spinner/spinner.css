@@ -1,0 +1,68 @@
+/* NO BORDER SPINNER */
+.hide_spinner{
+    display: none;
+}
+.show-nb-spinner-main .nb-spinner{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  background: transparent;
+  border-top: 2px solid #009688;
+  border-right: 2px solid transparent;
+  border-radius: 50%;
+  -webkit-animation: 1s spin linear infinite;
+  animation: .4s spin linear infinite;
+  position: relative;
+}
+
+.show-nb-spinner-main  .spinner-order-loader .nb-spinner-order{
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  background: transparent;
+  border-top: 2px solid #009688;
+  border-right: 2px solid transparent;
+  border-radius: 50%;
+  -webkit-animation: 1s spin linear infinite;
+  animation: .4s spin linear infinite;
+  position: relative;
+}
+
+.spinner-order-loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) !important;
+	z-index: 9999;
+}
+  @-webkit-keyframes spin{
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin{
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  /* .show-nb-spinner-main{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 99999;
+} */

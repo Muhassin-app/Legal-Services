@@ -1,0 +1,19 @@
+<?php
+
+return [
+    'name' => env('APP_NAME', 'royo'),
+    'short_name' => 'ro2',
+    'start_url' => '/',
+    'background_color' => '#6777ef',
+    'description' => 'Royo Orders',
+    'display' => 'fullscreen',
+    'theme_color' => '#6777ef',
+    'icons' => [
+        [
+            'src' => 'logo.png',
+            'sizes' => '512x512',
+            'type' => 'image/png',
+            'purpose' => 'any maskable',
+        ],
+    ],
+];

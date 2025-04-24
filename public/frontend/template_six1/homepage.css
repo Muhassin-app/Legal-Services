@@ -1,0 +1,183 @@
+
+/*================== Wrapper home page css ==========================*/
+
+.alSpaListBox p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px
+}
+.alFdTitle{
+    font-size: 20px;
+    line-height: 24px
+}
+.alFdText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #B6B6B6;
+    font-family: 'MontserratRegular';
+}
+.alFdLink{
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: underline
+}
+.spamiddleeast .slick-track .slick-slide:nth-child(odd){
+    margin-top: 70px
+}
+.alTesimonialsTitle{
+    font-size: 30px;
+    line-height: 40px;
+    color: #555555
+}
+.alTesimonialsText{
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 57px;
+    color: #0C0C0C
+}
+.alTesimonialsUsername{
+    font-size: 24px;
+    line-height: 34px;
+    color: #555555
+}
+ .alTesimonialsFrom{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0C0C0C;
+    font-family: 'MontserratRegular';
+}
+.testimonials .slick-arrow{
+    font-size: 0;
+    border: 0;
+    background-color: #CAAE73;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0
+}
+.testimonials .slick-prev.slick-arrow{
+    left: 25%
+}
+.testimonials .slick-next.slick-arrow{
+    right: 25%
+}
+.testimonials .slick-dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100px;
+    margin: 0 auto 15px;
+    padding: 0
+}
+.testimonials .slick-dots li{
+    display: inline-block;
+    margin: 0 3px
+}
+.testimonials .slick-dots li button{
+    padding: 0;
+    font-size: 0;
+    border: 1px solid #CAAE73;
+    height: 5px;
+    width: 5px;
+    border-radius: 10px
+}
+.testimonials .slick-dots li.slick-active button{
+    background-color:#CAAE73
+}
+.clientsFeedBackSlider{
+    padding-bottom: 100px
+}
+.testimonials .slick-prev:before{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(135deg) translateY(-50%);
+    -webkit-transform: rotate(135deg) translateY(-50%);
+    position: absolute;
+    content: "";
+    right: 25px;
+    top: 30%
+}
+.testimonials .slick-prev:after{
+    position: absolute;
+    content: "";
+    right: 15px;
+    top: 26px;
+    height: 2px;
+    width: 20px;
+    background-color: #fff
+}
+.testimonials .slick-next:before{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    position: absolute;
+    content: "";
+    right: 15px;
+    top: 19px
+}
+.testimonials .slick-next:after{
+    position: absolute;
+    content: "";
+    right: 15px;
+    top: 25px;
+    height: 2px;
+    width: 20px;
+    background-color: #fff
+}
+ .alScrollDown{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ .alScrollDown p{
+    color: #B6B6B6;
+    font-weight: 400;
+    font-size: 14px;
+}
+ .alScrollDown .alMouse{
+    position: relative;
+     animation: mymove 2s infinite;
+     animation-fill-mode: forwards;
+}
+ @keyframes mymove {
+     from {
+        top: 0px;
+    }
+     to {
+        top: 10px;
+    }
+}
+.alFindSecMobile{
+background-color: #fff;
+box-shadow: 0 2px 7px rgba(62,62,76,.1);
+border-radius:10px;
+}
+.alFindSecMobile label{display: block;}
+.alFindSecMobile span{color: #0C0C0C;opacity: .5;}
+.alFindSearch .btn{border-radius: 0 0 10px 10px;box-shadow: none;}
+.alFindSecMobile span{position: relative;width: 100%;display: block;}
+.alFindSecMobile span:before {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 2px;
+}
+

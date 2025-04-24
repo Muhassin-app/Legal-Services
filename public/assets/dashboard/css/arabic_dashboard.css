@@ -1,0 +1,181 @@
+body[dir="rtl"] .text-left {
+    text-align: right !important;
+}
+/*arbic dashboard css start here---*/
+body[dir="rtl"] .page-title-right .input-group-text {
+    border-radius: .2rem 0 0 .2rem;
+}
+body[dir="rtl"] .card.alDasBoxItems .float-right {
+    float: left !important;
+}
+body[dir="rtl"]  div#vendor_active_datatable_filter {
+    float: left;
+}
+body[dir="rtl"] div.dataTables_wrapper div.dataTables_filter input {
+    width: 285px;
+}
+body[dir="rtl"] .alFromUsers span.switchery.switchery-default {
+    right: auto;
+    top: 0;
+    left: 0;
+}
+body[dir="rtl"] .al_user {
+    padding-right: 00px;
+}
+body[dir="rtl"] .al_new_export_table.royo_customber_btn.table_customber_add .position-absolute.mb-2 {
+    right: auto;
+    left: 0;
+}
+body[dir="rtl"] .switchery {
+    right: 0;
+    float: left;
+}
+body[dir="rtl"] #alCustomizePage small.d-block.pr-5{
+    padding-right: 0 !important;
+}
+body[dir="rtl"] .custom-control-label::before {
+    left: auto;
+    right: -30px;
+}
+body[dir="rtl"] .web-style li.d-block.ml-3.mr-2.mb-1 {
+    padding-right: 20px;
+}
+body[dir="rtl"] .custom-radio.radio_new .custom-control-label::before,
+body[dir="rtl"] .select-category label:before {
+    clip-path: polygon(0 0, -35% 70%, 035% 0);
+    text-align: left;
+    right: auto;
+}
+body[dir="rtl"] .home-options-list .col-sm-4.text-right{text-align: left !important;}
+body[dir="rtl"] button#save_home_page_pickup{text-align: center !important;}
+body[dir="rtl"] .progress-w-percent .progress-value {
+    margin-right: 0;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+body[dir="rtl"]  div.dataTables_wrapper div.dataTables_info {
+    float: right;
+}
+body[dir="rtl"]  div.dataTables_wrapper div.dataTables_paginate {
+    float: left;
+}
+body[dir="rtl"] .alCustomToggleColor small.d-block.pr-5 {
+    padding-right: 0 !important;
+}
+body[dir="rtl"] .alpaymentOptionPage .switchery {
+    right: 0;
+    float: right;
+}
+/*arbic dashboard css start end---*/
+
+
+
+
+
+
+
+/* dark mode css dashboard start here */
+.dark .tabs_radio_controls h5 {
+    color: #000;
+}
+.tab-product.vendor-products {
+    margin-top: 20px;
+}
+body.dark div.dataTables_wrapper div.dataTables_info {
+    color: #acbfd2;
+}
+.dark .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #3b4651;
+}
+.dark .user_subscription .card-body label small {
+    color: #acbfd2;
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #acbfd2;
+}
+.dark .menu-title+.nav-second-level>li>a:hover span svg path {
+    fill: rgb(247 184 75 / 82%);
+}
+.dark .messages-box .list-group {
+    background: #3b4651;
+    border-bottom: 1px solid#303942;
+}
+.dark .chat-list-item:hover {
+    background: #303942;
+}
+.dark .alOrderDetailsBox p,
+.dark .alOrderDetailsBox p span,
+.dark .chat-list-item span,
+.dark .orderChatMessage ,
+.dark .chat-list-item h6 {
+    color: #acbfd2;
+}
+.dark .messages-box .list-group.active {
+    background-color: #303942;
+}
+.dark .chat-input-section,
+.dark .bg-white {
+    background-color: #303942 !important;
+}
+.dark .right-message .conversation-list .ctext-wrap::before {
+    border-bottom-color: #5ddaff24;
+    border-right-color: #5ddaff24;
+}
+.dark .conversation-list .chat-time svg{fill: #acbfd2;}
+.dark .left-message .conversation-list .ctext-wrap {
+    background: #334250;
+}
+.dark .left-message .conversation-list .ctext-wrap::before {
+    border-bottom-color: #303942;
+    border-right-color: #303942;
+}
+.dark .g-btn .text {
+    color: #acbfd2;
+}
+.dark .g-btn .text strong {
+    color: #fff;
+}
+.dark span.icon.alAppleIcon svg path{fill: #fff;}
+#alCustomizePage .switchery-demo .switchery {
+    float: right;
+}
+.dark .domain_name {
+    background-color: #303942;
+    color: #fff;
+}
+body.dark .switchery>small {
+    background-color: #334250;
+}
+body.dark .switchery {
+    background-color:  #303942 !important;
+    border: 1px solid #424e5a !important;
+}
+.dark .domain-outer input#custom_domain {
+    border-left: 1px solid #424e5a;
+}
+.dark .domain-outer {
+    border: 1px solid #424e5a;
+}
+.dark .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #303942;
+    border: 1px solid #424e5a;
+    color: #acbfd2;
+}
+/* dark mode css dashboard end here */
+
+.dark .al_custom_control label[for="1"] .card-img-top {
+    background-image: url(../../../../../images/1template_dark.jpg) !important;
+  }
+  .dark .al_custom_control label[for="2"] .card-img-top {
+    background-image: url(../../../../../images/2template_dark.jpg) !important;
+  }
+  .dark .al_custom_control label[for="3"] .card-img-top {
+    background-image: url(../../../../../images/3template_dark.jpg) !important;
+  }
+  .dark .al_custom_control label[for="4"] .card-img-top {
+    background-image: url(../../../../../images/4template_dark.jpg) !important;
+  }
+  .dark .al_custom_control label[for="5"] .card-img-top {
+    background-image: url(../../../../../images/6template_dark.jpg) !important;
+  }

@@ -1,0 +1,96 @@
+
+/* on demand vendor slot */
+.radio-btns input[type="radio"].ondemand_checked + label span{background: var(--theme-deafult); color: #fff;}
+
+div#step-2-ondemand .radio-btns input[type="radio"]:checked + label span{background: var(--theme-deafult);
+color: #fff;}
+div#step-2-ondemand .slick-initialized .slick-arrow { right: 0;top: 52%;left: -5px;}
+div#step-2-ondemand .slick-initialized .slick-next.slick-arrow {  right: -5px;left: auto;}
+.al_body_template_six div#step-2-ondemand .slick-initialized .slick-arrow { right: 0;top: 60%;left: 0;}
+.al_body_template_six div#step-2-ondemand .slick-initialized .slick-next.slick-arrow { right: 0;left: auto;}
+div#show-all-time-slots11 .slick-slider .slick-prev{left:0px;top:38%;}
+div#show-all-time-slots11 .slick-slider .slick-next{right:0px;top:38%;}
+div#step-2-ondemand span.customCheckbox {font-size: 14px;}
+
+div#step-2-ondemand .radio-btns.long-radio input[type=radio]:checked +label .customCheckbox{
+    background: var(--theme-deafult);
+color: #fff;
+}
+.radios { text-align: center; }
+
+/* driver slot */
+
+#avail_slot .grid-item {
+    color: #fff;
+    padding: 3.5em 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#avail_slot .main {
+    grid-area: main;
+    padding: 0;
+}
+
+#avail_slot .items {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+#avail_slot .grid-item .item.active {
+    background: #000;
+}
+#avail_slot .grid-item .item.active label span {
+    color: #fff;
+}
+#avail_slot  .item {
+    display: inline-block;
+}
+div#avail_slot .alCustomHomeServiceRadio.items .item label span.customCheckbox{
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    margin: 2px 5px;
+    display: inline-block;
+    background-color: #f3f3f3;
+}
+#avail_slot  .grid-item.main .items .item input[type="radio"]{
+    display: none;
+}
+#avail_slot  .grid-item.main .items .item label {
+    color: #000;
+    font-size: 13px;
+    margin: 0px;
+}
+div#avail_slot .alCustomHomeServiceRadio input[type="radio"]:checked + label span{background: var(--theme-deafult)!important;color: #fff !important;}
+.radio-btns.long-radio  .checked_item  input[type="radio"] label span{background: var(--theme-deafult)!important;color: #fff !important;}
+
+a.agentInfo.d-block.selected_agent .brand-ing {
+border-color: var(--theme-deafult);
+border-width: 3px;
+}
+.alCustomHomeServiceRadio::-webkit-scrollbar {height: 4px;}
+.alCustomHomeServiceRadio::-webkit-scrollbar-thumb {
+    background: var(--theme-deafult);
+  }
+.alCustomHomeServiceRadio{flex-wrap: nowrap;white-space: nowrap;overflow: auto;}
+.alCustomHomeServiceRadio .item{display: inline-block;margin-bottom: 6px;}
+a.agentInfo.d-block.selected_agent h6 {
+color: var(--theme-deafult);
+}
+.agentInfo .brand-ing{transition: 0.5s}
+.alCustomHomeServiceAgentRadio{flex-wrap: nowrap;white-space: nowrap;overflow: auto;}
+.alCustomHomeServiceAgentRadio .agent_slot{display: inline-block;margin: 0px 10px;}
+.booking-time-wrapper .radio-btns input[type="radio"]+label .customCheckbox {
+    width: auto;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: auto;
+    line-height: 2.5;
+    margin: 0 3px;
+}

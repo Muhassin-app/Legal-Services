@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddShiprocketDetailsToVendorOrder extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('order_vendors', function (Blueprint $table) {
+            $table->string('ship_order_id')->nullable();
+            $table->string('ship_shipment_id')->nullable();
+            $table->string('ship_awb_id')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('vendor_order', function (Blueprint $table) {
+            //
+        });
+    }
+}

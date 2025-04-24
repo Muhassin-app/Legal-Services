@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  src: url(https://example.com/material-symbols.woff) format('woff');
+}
+.widget-icon {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.progress-w-percent .progress {
+  width: calc(100% - 80px);
+}
+#alDashboardStyle .page-title-box .page-title-right {
+  margin-top: 10px;
+}
+.progress-w-percent .progress-value {
+  width: auto;
+  margin-right: 10px;
+  float: right;
+  text-align: right;
+  line-height: 0;
+}
+.jvectormap-label:empty{
+  display: none;
+}
+.dark span.input-group-text.bg-primary.border-primary.text-white {
+  background-color: #d3a14a !important;
+  border-color: #d3a14a !important;
+}
+body.dark .btn {
+  border-radius: 2px;
+}
+#revenue_locations{
+max-height: 229px;
+overflow: auto;
+padding-right: 0;
+}
+.widget-icon{
+  color: #43bee1;
+  background-color: #43bee161;
+}
+.dark .widget-icon{
+  color: #d3a14a;
+  background-color: #d3a14a61;
+}
+.progress-w-percent {
+  margin-bottom: 20px;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #43bee1;
+  border-color: #43bee1;
+}
+.page-title-right a#dashboard_refresh_btn i {
+  margin-top: 3px;
+}
+.page-title-right span.input-group-text i {
+  margin-top: 3px;
+}
+.page-title-right .input-group input#range-datepicker {
+  width: 230px;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #43bee1;
+  border-color: #43bee1;
+}
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #43bee1;
+  border-color: #43bee1;
+  box-shadow: 0 0 0 .15rem rgba(125,113,226,.5);
+}

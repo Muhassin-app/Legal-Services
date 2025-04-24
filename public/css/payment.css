@@ -1,0 +1,29 @@
+.payment-top-haeder {
+    background-color: '{{getClientPreferenceDetail()->web_color}}';
+}
+.al_payment_gatewayForm{
+background-color: #fff;
+border-radius: 15px;
+padding: 30px;
+border: 1px solid #eee;
+box-shadow: 0 30px 40px rgb(0 0 0 / 10%), inset 0 0 6px rgb(0 0 0 / 20%);
+}
+.al_payment_gatewayForm .btn-solid {
+    background-color: #000;
+    border-radius: 50px;
+    opacity: .3;
+}
+.al_payment_gatewayForm .btn-solid:hover{
+    opacity: 1;
+}
+.al_payment_gatewayForm label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 8px rgb(0 0 0 / 50%);
+}
+.al_payment_gatewayForm .form-control {
+    border-width: 1px;
+    border-radius: 75px;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 20%);
+}

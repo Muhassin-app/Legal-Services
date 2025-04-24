@@ -1,0 +1,153 @@
+@media (max-width: 1430px){
+    .container_fluid_al .container.al_mobile-header {
+        max-width: 100%;
+    }
+    .top-header.site-topbar.al_custom_head .container {
+        max-width: 100%;
+        padding: 0 12px !important;
+    }
+    .top-header.site-topbar.al_custom_head .container .row {
+        margin: 0;
+    }
+}
+@media (max-width: 1199px){
+    .menu-slider .slick-slide {
+        width: max-content!important;
+    }
+}
+@media (max-width:767px){
+    .al_new_wrapper_design .al_mobile_menu .onhover-dropdown_al li {
+        padding: 8px 0 0;
+    }
+    .footer-social ul {
+        margin: 0;
+    }
+    .al_new_wrapper_design .vendors .slick-next,
+    .al_new_wrapper_design .vendors .slick-prev {
+        display: none !important;
+    }
+    .al_mobile_menu.al_new_mobile_header li {
+        display: block;
+    }
+    .al_mobile_menu.al_new_mobile_header li a {
+        font-size: 14px;
+        color: #777;
+    }
+    .dark .al_mobile_menu.al_new_mobile_header li a {
+        color: #777;
+    }
+    .al_mobile_menu {
+        display: block;
+    }
+    .al_mobile_menu {
+        display: block;
+    }
+    a.navbar-brand.mr-xl-3.mr-0 {
+        max-width: 110px !important;
+    }
+    .al_z_index {
+        display: none;
+    }
+    .container.al_mobile-header {
+        max-width: 100%;
+    }
+    .menu-navigation_al li.al_main_category a .nav-cate-img {
+        height: 50px;
+        width: 50px;
+    }
+    .menu-navigation_al li.al_main_category a .nav-cate-img img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .al_count_tabs_new_design li a.nav-link img {
+        width: 100%;
+    }
+    .al_count_tabs_new_design li.navigation-tab-item {
+        margin-right: 0;
+    }
+    #al_new_design .pixelstrap a, #al_new_design .pixelstrap a:active, #al_new_design .pixelstrap a:hover, #al_new_design .pixelstrap li a {
+        font-size: 12px;
+    }
+    .al_new_wrapper_design #myCarousel {
+        border-radius: 20px;
+    }
+    .al_desktop_banner {
+        display: none;
+    }
+    .al_mobile_banner {
+        display: block !important;
+        height: 80px;
+    }
+    .grid-row.grid-4-4 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .al_new_wrapper_design .al_custom_brand .brand-box .brand-ing {
+        height: 80px;
+        width: 80px;
+    }
+    .al_new_wrapper_design h2 {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .home-slider-wrapper .banner-img-outer img {
+        border-radius: 20px;
+    }
+    section.home-slider-wrapper {
+        padding-top: 20px!important;
+        padding-bottom: 20px;
+    }
+    footer#footer {
+        position: relative;
+        height: auto;
+    }
+    article#content-wrap {
+        padding-bottom: 84px;
+    }
+    .footer-mobile-contant{
+        display: block !important;
+    }
+    .footer-mobile-contant ul li {
+        display: block ;
+    }
+    .royo_whatsapp_img,.tap-top{
+        bottom: 11%;
+    }
+    .tap-top{
+        width: 35px;
+        height: 35px;
+        padding: 2px;
+        font-size: 14px;
+        right: 10px;
+        line-height: 35px
+    }
+    .royo_whatsapp_img img {
+        width: 35px;
+    }
+    .footer-mobile-contant {
+        margin-bottom: 20px;
+    }
+    .payment-card .footer-mobile-contant ul li{
+        display: inline-block;
+    }
+    .aos-animate {
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    .al_mobile_menu.al_new_mobile_header .onhover-dropdown .onhover-show-div{padding: 10px;}
+    .al_mobile_menu.al_new_mobile_header .onhover-dropdown .onhover-show-div li {
+        padding: 5px 0;
+    }
+}

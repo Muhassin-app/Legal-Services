@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>{{__('Verify Mail')}}</title>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+      <style type="text/css">
+         body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+         }
+         a{
+            text-decoration: none;
+         }
+         h1,h2,h3,h4{
+            font-weight: 700;
+            margin: 0;
+         }
+         p,ol li{
+            font-size: 14px;
+            line-height: 22px;
+            margin: 0 0 15px;
+         }
+         img{
+            max-width: 100%;
+         }
+         .container {
+            background: #fff;
+            padding: 20px 60px 0;
+            max-width: 100%;
+            margin: 0 auto;
+            border-radius: 4px;
+            /*background-image: url(./assets/invoice-images/pattern.png);*/
+            background-repeat: repeat;
+            width: 600px;
+         }
+         table {
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 0;
+            text-align: left;
+         }
+         table th,table td{
+            padding: 10px 0;
+         }
+         ul {
+            margin: 0;padding: 0;
+         }
+         ul li{
+            list-style: none;
+         }
+         .list-content{
+            margin-bottom: 15px;
+         }
+         .list-content b{
+            margin-bottom: 15px;
+         }
+         .list-content p{
+            margin-bottom: 5px;
+         }
+         .outer-border {
+            border: 2px solid #ddd;
+         }
+         .outer-border th{
+            background-color: #E2F1CD;
+         }
+         .outer-border th,.outer-border td {
+            border-right: 2px solid #ddd;
+            border-bottom: 2px solid #ddd;
+            padding: 10px 5px;
+            font-size: 14px;
+         }
+         .outer-border th:last-child, .outer-border td:last-child {
+            border-right: 0;
+         }
+         .outer-border td:last-child a{
+            display: block;
+         }
+         .required-list .outer-border td:first-child,.required-list .outer-border td:nth-child(3) {
+            text-align: center;
+         }
+         .outer-border tr:last-child td {
+            border-bottom: 0;
+         }
+         .required-list,.escalation-list {
+            margin: 0 0 15px;
+         }
+         a{            
+            color: #0091FF;
+         }
+      </style>
+   </head>
+   <body>
+      <section class="wrapper">
+         <div class="container" style="background: #fff;border-radius: 10px;">
+            <table style="width: 100%;">
+              <thead>
+                 <tr>
+                    <th style="text-align: left;">
+                        <a style="display: block;" href="#">
+                           <img src="images/site-logo.png" alt="">
+                        </a>
+                    </th>
+                    <th style="text-align: right;">
+                        <a style="display: block;" href="#">
+                           <img src="images/app-logo.png" alt="">
+                        </a>
+                    </th>
+                 </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                    <td colspan="2">
+                       <table style="width: 100%;">
+                        <tbody>
+                           <tr>
+                              <td colspan="2" style="padding-top:0;">
+                               <img src="images/banner-img.png" alt="">
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <b style="display: block;margin-bottom: 15px;">Hello Mr. XYZ,</b>
+                                 <p>We are grateful to have the opportunity to be part of your Digital journey. The goal of this email is to kick off the project with a call. The topics of discussion at this stage are all mentioned in this email.</p>
+                                 <p>Here is a list of all the components of the solution which we will demo sequentially through the milestones of the project.</p>
+                                 <div class="list-content">
+                                    <b style="display: block;margin-bottom: 5px;">Software components:</b>
+                                    <p><b>1. Royo Orders 2.0</b> - Admin Panel, Vendor Panel, and Front end website.</p>
+                                    <p><b>2. Royo Orders 2.0</b> - User applications (iOS & Android)</p>
+                                    <p><b>3. Royo Dispatch</b> - Admin Panel.</p>
+                                    <p><b>4. Royo Dispatch</b> - Driver application</p>
+                                    <p><b>5. Royo Orders 2.0 & Dispatch</b> - Feedback development as per the scope of Proposal and bug resolution (if any).   </p>
+                                 </div>
+                                 <p>There might be a milestone associated with the delivery of each of the stages mentioned above, kindly ensure on-time clearance of the same for the project's progress.</p>   
+                                 <div class="list-content">
+                                    <b style="display: block;margin-bottom: 5px;">Communication with the team:</b>
+                                    <p><b>1. Dedicated Whatsapp group</b> - For the prompt resolution of issues.</p>
+                                    <p><b>2. Basecamp</b> - For project's progress, meetings, documents and updates.</p>
+                                 </div>
+                                 <div class="required-list">
+                                    <b style="margin-bottom: 15px;display: block;">The list of things that would be required from your end - </b>
+                                    <table class="outer-border" style="width: 100%;">
+                                       <thead>
+                                          <tr>
+                                             <th>S.No</th>
+                                             <th>Requirements</th>
+                                             <th>Format</th>
+                                             <th>Link</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>Logo Files</td>
+                                             <td>.png or .svg</td>
+                                             <td>-N.A-</td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>Google Map Console Credentials</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#"> https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>3</td>
+                                             <td>Trello Credentials</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#"> https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>4</td>
+                                             <td>SMTP Credentials</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#"> https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>5</td>
+                                             <td>Facebook developer account 
+                                                credentials</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#"> https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>6</td>
+                                             <td>Domain credentials</td>
+                                             <td>-N.A-</td>
+                                             <td>-N.A-</td>
+                                          </tr>
+                                          <tr>
+                                             <td>7</td>
+                                             <td>Google pay console credentials
+                                                (optional)</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#"> https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>8</td>
+                                             <td>Apple developer account credentials (optional)</td>
+                                             <td>-N.A-</td>
+                                             <td><a href="#">https://console.cloud.go.</a></td>
+                                          </tr>
+                                          <tr>
+                                             <td>9</td>
+                                             <td>Payment gateway credentials</td>
+                                             <td>-N.A-</td>
+                                             <td>-N.A-</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+
+
+                                 <div class="escalation-list">
+                                    <b style="margin-bottom: 15px;display: block;">Escalation Matrix </b>
+                                    <table class="outer-border" style="width: 100%;">
+                                       <thead>
+                                          <tr>
+                                             <th>Person Responsible</th>
+                                             <th>Role</th>
+                                             <th>Hours of operation</th>
+                                             <th>Contact Details</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>Concerned project Coordinator</td>
+                                             <td>Project Coordinator</td>
+                                             <td>11:00 AM to 6:00 PM IST <br>Monday to Friday</td>
+                                             <td>Concerned Whatsapp group of the project</td>
+                                          </tr>
+                                          <tr>
+                                             <td>Mr. Avik Seth</td>
+                                             <td>Project Manager</td>
+                                             <td>11:00 AM to 6:00 PM IST <br>Monday to Friday</td>
+                                             <td>
+                                                <span style="display: block;">Email- <a href="mailto:avikseth@code-brew.com">avikseth@code-brew.com</a></span>
+                                                <span style="display: block;">Contact- +91 8699124476</span>  
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>Mr. Abhimanyu Vig</td>
+                                             <td>Senior Project Manager</td>
+                                             <td>11:00 AM to 6:00 PM IST <br>Monday to Friday</td>
+                                             <td>
+                                                <span style="display: block;">Email- <a href="mailto:">abhimanyuvij@code-brew.com</a></span>
+                                                <span style="display: block;">Contact- +91 7719699873</span>  
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>Mr. Pargat Dhillon</td>
+                                             <td>Chief Technical Officer</td>
+                                             <td>11:00 AM to 6:00 PM IST <br>Monday to Friday</td>
+                                             <td>
+                                                <span style="display: block;">Email- <a href="mailto:pargat@code-brew.com">pargat@code-brew.com</a></span>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>Mr. Sukhchain Singh</td>
+                                             <td>Senior Delivery Manager</td>
+                                             <td>11:00 AM to 6:00 PM IST <br>Monday to Friday</td>
+                                             <td>
+                                                <span style="display: block;">Email- <a href="mailto:sukhchain@code-brew.com">sukhchain@code-brew.com</a></span> 
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                                 
+                                 <b>Next Steps:</b>
+                                 <ol style="padding-left: 15px;">
+                                    <li>We request to schedule a kickoff call to discuss the above 4 topics.</li>
+                                    <li>Once we receive the Brand Name and Logo Files we will begin with the Web and App Onboarding. </li>
+                                 </ol>
+                                 <b>Important Notes:</b>
+                                 <ol style="padding-left: 15px;">
+                                    <li>Once we will set up the base solution and execute the initial milestones and payments as per the proposal, We will take your feedback and also develop customizations as per the proposal.</li>
+                                    <li>The Project scope is strictly limited to the features explicitly written in the proposal, if there are verbal discussions, that you expect to be part of the scope but are not in the scope, we request you to escalate as soon as possible.</li>
+                                    <li>The timeline is tentative, while we work to aggressively accomplish the timeline, there are always edge cases that come up due to various reasons like, Delays from 3rd party vendors like Payment Gateways, deprecated modules and updates OS versions which need unexpected development time etc.</li>
+                                 </ol>
+
+                                 <p><b>We again thank you for choosing Code Brews Labs as your trusted partner. Looking forward to working with you.</b></p>
+                              </td>
+                           </tr>
+                           
+                        </tbody>
+                       </table>
+                    </td>
+                 </tr>
+              </tbody>
+             
+              <tfoot style="text-align: center;">
+               <tr>
+                  
+               </tr>
+            </tfoot>
+            </table>
+         </div>
+      </section>
+   </body>
+</html>

@@ -1,0 +1,337 @@
+/* pick and drop css start */
+.al_body_template_five .cab-banner-area .cab-footer .btn{
+    height: auto;
+    line-height: normal;
+    border-radius: 12px;
+}
+.al_body_template_five .cab-banner-area .cab-input input.form-control{border-radius: 12px !important;}
+.al_custom_head .onhover-dropdown span:before,
+.al_custom_head.top-header .header-dropdown li,
+.al_custom_head.top-header .header-dropdown li a {
+    color: #777!important;
+    font-size: 14px!important;
+}
+.onhover-dropdown .onhover-show-div {
+    display: none;
+}
+.onhover-dropdown.mobile-account .onhover-show-div {
+    top: calc(100% - 7px);
+}
+.onhover-dropdown .onhover-show-div {
+    top: calc(100% - 10px);
+    position: absolute;
+    z-index: 99999;
+    background-color: #fff;
+    -webkit-transition: all linear .1s;
+    transition: all linear .1s;
+    min-width: 160px;
+    text-align: left;
+    -webkit-box-shadow: 0 1px 2px 0 #cacaca;
+    box-shadow: 0 1px 2px 0 #cacaca;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    opacity: 0;
+    visibility: hidden;
+    right: 0;
+    padding: 0;
+    border-radius: 0!important;
+}
+.top-header .header-dropdown .onhover-dropdown .onhover-show-div li {
+    background-color: #fff;
+}
+.cab-banner-area .card-box {
+    padding: 48px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,.5);
+}
+
+.al_mobile_menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.onhover-dropdown.mobile-account:hover .onhover-show-div {
+    opacity: 1;
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+    visibility: visible;
+}
+.onhover-dropdown:hover .onhover-show-div {
+    display: block;
+}
+.main-menu{display: none;}
+.al_body_template_five .top-header.site-topbar{background-color: transparent;}
+.al_body_template_five a:hover{text-decoration: none;}
+article#content-wrap {
+    padding-bottom: 0 !important;
+}
+header#al_new_design {
+    position: relative;
+}
+.al_body_template_five .inner-pages-offset.al_offset-top{margin-top: 0 !important;}
+.al_body_template_five section.cab-booking.pt-0{padding: 0!important;}
+
+
+
+/* cab booking code css */
+
+.cab-booking{height:100vh;position:relative}
+.gm-style-moc{background-color:rgba(0,0,0,.45);pointer-events:none;text-align:center;transition:opacity ease-in-out}
+.cab-booking iframe{height:100vh}
+.booking-experience{box-shadow:0 4px 16px rgb(0,0%,0 / 15%);overflow:hidden;background:#fff;position:absolute;top:0;}
+.loader-outer .spinner-border{width:150px;height:150px}
+.location-box{background-color:var(--theme-deafult);position:relative;padding:20px;}
+.title-36{
+    font-size:30px;
+    line-height:normal;font-weight:600}
+.title{color:#fff}
+.location-inputs li{position:relative;min-height:44px;margin:0 0 10px}
+.location-inputs .title-24{font-size:16px;line-height:30px;font-weight:400}
+.location-inputs li i{color:#fff;cursor:pointer;margin-left:10px;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+.add-more-location{color:#fff;margin-top:14px}.location-container{height:calc(100vh - 340px);overflow-y:auto;overflow-x:hidden}
+.location-search{padding:16px 14px 0;position:relative}
+.location-search i {
+    position: absolute;
+    padding: 16px 4px 16px 8px;
+    width: 28px;
+    font-size: 17px;
+    color: rgba(0,0,0,.4);
+}
+.location-search .form-control{
+    border: 0;
+    border-bottom: 0px solid #f6f6f6;
+    height: 46px;
+    padding-left: 40px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    border-radius: 10px!important;
+}
+.scheduled-ride{padding:16px 10px}
+.scheduled-ride button{background-color:#eee;padding:10px 12px;border-radius:50px;line-height:16px;font-size:14px;border:0;font-weight:600}
+.scheduled-ride button i{font-weight:600}.loader{position:relative;width:100%;min-height:4px}
+.location-list{overflow-x:hidden}
+.active-location{background-color:var(--theme-deafult)}
+.round-shape{width:36px;height:36px;border-radius:50%;background-color:#77797a;color:#fff;line-height:36px}
+.select-location h4{margin-bottom:2px}
+.text-color{color:var(--theme-deafult)!important}
+.search-location-result{padding:0 16px 0 0;margin:20px 0 0}
+.location-inputs li::before{height:calc(100% - 5px);background:#fff;border-left:2px solid #fff;position:absolute;display:block;margin:auto;content:"";width:2px;left:-19px;top:24px}
+.dots::after{height:8px;width:8px;border:2px solid #fff;background:#fff;position:absolute;display:block;margin:auto;content:"";left:0;
+top:6px;border-radius:50px}
+.location-inputs .dots::after{top:12px;left:-22px}
+.add-more-location::before{font-family:FontAwesome;content:"\f055";position:absolute;left:-14px;top:50%;transform:translateY(-50%);
+color:#fff;font-size:20px}
+a.vehical-view-box.row.no-gutters{padding:0 10px}
+.vehicle-icon .img-fluid{width:50px;padding-right: 0;border-radius: 50%;height: 50px;}
+a.vehical-view-box.d-flex.align-items-center.no-gutters.px-2{padding: 5px 0;}a.vehical-view-box.d-flex.align-items-center.no-gutters.px-2:hover{background-color: #f5f5f5;}
+.vehical-container{overflow-y:auto;overflow-x:hidden;padding:0 0 20px}
+.location-inputs li .fa-times{opacity:0}
+.location-inputs li:hover .fa-times{opacity:1}
+.cab-detail-box .cab-image-box{overflow:hidden}
+.cab-image-box{height:300px}
+.cab-image-box img{max-width:100%}
+.ling-throgh{text-decoration:line-through;color:#6c757d}
+.cab-amount-details.px-2{background:#f6f6f6;border-top:2px solid #e2e2e2;padding:10px 0 5px}
+.coupon_box{background:#f3f9ff;padding:5px 10px;width:300px}
+.search-location-result h4,.select-location h4{font-size:14px;font-weight:400}
+.search-location-result h4 b, .current-location.ellips.mb-2{font-size:14px;font-weight:400}
+.scheduled-ride-list{position:absolute;top:0;left:0;background:#fff;width:100%;padding:0;height:100%;display:none;z-index:1}
+.scheduled-ride-list-heading{padding:0 24px}.scheduled-ride-list-heading h3{color:#000;font-size:20px;font-weight:600;margin:23px 0}
+.skip-clear{cursor:pointer}.date-radio-list{height:calc(100% - 156px);overflow-y:auto}
+.date-radio-list .form-check{display:block;width:100%;margin:0;padding:24px 0 24px 70px}
+.radio input[type=radio]{position:absolute;opacity:0}
+.date-radio-list .form-check label{cursor:pointer;font-size:18px;line-height:24px;color:#000;font-weight:600;margin:0}
+.radio input[type=radio]:checked+.radio-label:before{background-color:#000;border-color:#000;box-shadow:inset 0,0,0 0 #f4f4f4}
+.radio input[type=radio]+.radio-label:before{content:"";background:0 0;border-radius:100%;border:2px solid #757575;
+display:inline-block;width:24px;height:24px;position:absolute;left:25px;top:24px;margin-right:1em;
+vertical-align:top;cursor:pointer;text-align:center;transition:all .4s ease;
+transition-duration:.25s;transition-timing-function:cubic-bezier(0.8,0.2,0.6,1)}
+.radio input[type=radio]:checked+.radio-label::after{opacity:1}
+.scheduleTime{margin:15px 0 0}
+.date-radio-list .form-check::after{content:"";width:calc(100% - 70px);height:1px;background-color:#ddd;
+display:block;position:absolute;bottom:0;right:0}
+.scheduleTime select{border:0;border-radius:50px;padding:5px 10px;background:#fff;margin-right:10px}
+.date-radio-list .form-check:active,.date-radio-list .form-check:focus,.date-radio-list .form-check:hover{background:#eef3fe}
+.date-radio-list:after{content:"";position:absolute;bottom:88px;width:100%;height:239px;left:0;background-image:linear-gradient(rgba(255,255,255,0),#fff 90%)}
+.scheduled-footer{padding:16px 24px}
+.scheduled-footer button {
+    background-color: var(--theme-deafult);
+    color: #fff;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 50px;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+.booking-experience {
+    position: absolute;
+    width: 400px;
+    top: 50px;
+}
+.ds {
+    left: calc(((100vw - 1366px) / 2) + 24px);
+}
+.style-4::-webkit-scrollbar-track{box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#f5f5f5}
+.style-4::-webkit-scrollbar{width:5px;height:5px;background-color:#f5f5f5}
+.style-4::-webkit-scrollbar-thumb{background-color:#000;border:2px solid #555}
+.cab-banner-area .card-box h2:empty{display: none;}
+path.althemeColor{fill: var(--theme-deafult);}
+path.alPath1{fill: var(--theme-deafult);opacity: .2;}
+path.alPath5{fill: var(--top-header-color);}
+
+
+.shimmer_effect .menu-slider span .loading{
+    width:calc(100% - 20px);
+    height:10px;
+    display:block;
+    margin:auto
+}
+.shimmer_effect{
+    overflow:hidden
+}
+.grid-row.grid-4-4{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:30px
+}
+.shimmer_effect .card_image{
+    width:100%;
+    height:100%
+}
+.shimmer_effect .card_image.loading {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 0;
+    border-radius: 15px;
+}
+.shimmer_effect .card_title.loading{
+    width:50%;
+    height:10px;
+    margin:10px 0;
+    border-radius:3px;
+    position:relative
+}
+.shimmer_effect .card_content.loading{
+    width:80%;
+    height:10px;
+    margin:10px 0;
+    border-radius:3px;
+    position:relative
+}
+.shimmer_effect .card_description{
+    padding:8px;
+    font-size:16px
+}
+.shimmer_effect .card_description.loading{
+    height:2rem;
+    margin:10px 0;
+    border-radius:3px
+}
+.cardbanner{
+    height: 482px;
+}
+.shimmer_effect .loading {
+    position: relative;
+    background: #ccc;
+    overflow: hidden;
+}
+section.section-b-space_.p-0.ratio_asos.Taxi_banner_shimmer {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+section.section-b-space_.p-0.ratio_asos.Taxi_banner_shimmer .container{
+    max-width: 100%;padding: 0;
+}
+.shimmer_effect .loading:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    transform:translateX(-100px);
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+    animation:loading .8s infinite
+}
+.shimmer_effect h2.h2-heading {
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+}
+.shimmer_effect .card_icon{
+    width:30px;
+    height:30px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px
+}
+.shimmer_effect .card_price{
+    width:50px;
+    height:20px
+}
+.shimmer_effect .card_line{
+    height:1px;
+    width:100%;
+    margin:10px 0
+}
+@keyframes loading{
+    100%{
+        -webkit-transform:translateX(100%);transform:translateX(100%);
+    }
+}
+/* dark theme */
+.dark .alDeliveryBox,
+.dark .al_custom_head_map_box{
+    background-color: #2b2b2b;
+}
+.dark #alTaxiSilderBG {
+    background-color: #242424;
+}
+.dark .al_custom_head_map_box i{color: #fff;}
+.dark .al_custom_head_map_box{border-color: #242424;}
+.dark .drivers.py-5 {
+    background-color: #2b2b2b;
+}
+
+@media(max-width:1366px){
+    .ds {
+        left: calc(((100vw - 1300px) / 2) + 24px);
+    }
+    .al_body_template_five .cab-banner-area .card-box {
+        padding: 10px;
+    }
+
+    .al_body_template_five .container.p-64 {
+        padding: 40px !important;
+    }
+    .al_body_template_five .cab-input {
+        margin: 0;
+    }
+    .al_body_template_five .cab-footer {
+        margin: 0;
+    }
+
+}
+@media(max-width:991px){
+    #alTaxiSilderBG .col-md-7.text-center svg {
+        width: 100%;
+    }
+    .drivers.py-5 img {
+        width: 100%;
+    }
+    .col-md-6.delivery-img svg {
+        width: 100%;
+    }
+    .about-ipd {
+        margin-bottom: 120px;
+    }
+    .cardbanner {
+        height: 360px;
+    }
+}

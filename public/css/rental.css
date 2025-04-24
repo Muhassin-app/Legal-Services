@@ -1,0 +1,41 @@
+section.home-slider-wrapper {
+    padding-top: 10rem !important;
+    padding-bottom: 0 !important;
+}
+section.home-slider-wrapper div#myCarousel img {
+    height: 450px;
+}
+article#content-wrap {
+    padding: 22px 0 !important;
+}
+.carousel-control-next, .carousel-control-prev {
+    height: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: inherit;
+    width: 60px;
+}
+div#myCarousel {
+    height: 450px;
+}
+.banner {
+    position: relative;
+    margin-bottom: 16rem;
+}
+footer#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+}
+.banner_tab div#tabs-content .item {
+    border-right: none;
+}
+.banner_tab div#tabs-content .item input {
+    background: #fff;
+    border: none;
+}
+.single_product_block .text p {
+    font-size: 16px !important;
+    padding: 5px 0 !important;
+}

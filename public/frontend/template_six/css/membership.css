@@ -1,0 +1,21 @@
+#heroMembershipPage .alHeroContactUs,
+#heroMembershipPage .alHeroContactUs a{
+	color: #FFF;text-decoration: underline;
+}
+#heroMembershipPage .alHeroContactUs a:hover{color: #84571E;}
+.membershipSec ul li:before{
+content: ".";
+position: absolute;
+font-size: 20px;
+left: 4px;
+top: 14px;
+line-height: 0;
+}
+.oneYearsMembershipDetails small{color: #CAAE73;font-style: italic;}
+.oneYearsMembershipDetails span,
+.oneYearsMembershipDetails p{font-size: #0C0C0C;opacity: .7;font-size: 14px;}
+.membersCards .membersCardsBox{background-color: #CAAE73;border-radius: 30px;}
+.membersCardsBox .alBodyText,
+.membersCardsBox .alLgFontSize{color: #fff}
+.membersCardsBox .alCustomBtn{background-color: #fff;border-radius: 30px;color: #CAAE73;box-shadow: none; padding: 12px 30px;}
+.membersCardsBox .alCustomBtn:hover{background-color: #84571E;color: #fff;}

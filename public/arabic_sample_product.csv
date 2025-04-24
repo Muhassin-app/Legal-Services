@@ -1,0 +1,2 @@
+SKU,لقب,الوصف (HTML),نشرت,فئة,اسم الخيار 1,قيمة الخيار 1,اسم الخيار 2,قيمة الخيار 2,اسم الخيار 3,قيمة الخيار 3,متغير SKU,سعر متغير,الكمية المتغيرة,مقارنة المتغير في السعر,متغير خاضع للضريبة,صورة Src,سعر التكلفة المتغير,ماركة,فئة الضريبة,كمية المنتج,سعر المنتج,مقارنة المنتج بالسعر,اضافه,العلامات
+example-t-shirt,Example T-Shirt,,TRUE,Fashion,Size,Small,Color,White,,,Tshirt-small-red,25,100,23.99,TRUE,https://burst.shopifycdn.com/photos/green-t-shirt.jpg,50,zara,,,,,"abc,abs,asd","abc,non-veg"

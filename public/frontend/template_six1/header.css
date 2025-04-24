@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'FontsFreeNetMontserratSemiBold';
+    src: url('../fonts/FontsFreeNetMontserratSemiBold.eot');
+    src: url('../fonts/FontsFreeNetMontserratSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/FontsFreeNetMontserratSemiBold.woff2') format('woff2'),
+         url('../fonts/FontsFreeNetMontserratSemiBold.woff') format('woff'),
+         url('../fonts/FontsFreeNetMontserratSemiBold.ttf') format('truetype'),
+         url('../fonts/FontsFreeNetMontserratSemiBold.svg#FontsFreeNetMontserratSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/MontserratRegular.eot');
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'),
+         url('../fonts/MontserratRegular.woff2') format('woff2'),
+         url('../fonts/MontserratRegular.woff') format('woff'),
+         url('../fonts/MontserratRegular.ttf') format('truetype'),
+         url('../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+::-webkit-scrollbar {width: 6px;}
+::-webkit-scrollbar-track {  background: #f1f1f1; }
+::-webkit-scrollbar-thumb {  background: #888; }
+::-webkit-scrollbar-thumb:hover {  background: #555; }
+body{margin: 0;background-color: #fff;font-family: 'MontserratRegular';overflow-x: hidden;}
+
+/*================== common css ==============*/
+a:hover{text-decoration: none}li{list-style: none}
+.heroArea {background-repeat: no-repeat;background-size: cover;position: relative;}
+.alLgHeroHeading{font-size: 60px;color: #fff;line-height: 65px;font-family: 'FontsFreeNetMontserratSemiBold';}
+.alHeroText{font-size: 14px;color: #fff;line-height: 24px}
+.alBodyText{font-size: 14px;color: #B6B6B6;line-height: 24px;}
+.heroArea .alCustomBtn{background-color: transparent;border: 1px solid #fff;border-radius: 30px;font-size:14px; color: #fff;padding: 12px 30px}
+.heroArea .alCustomBtn:hover{background-color: #84571E;color: #fff;border: 1px solid #84571E}
+.alLgFontSize{font-size: 47px;font-weight: 600;color: #0C0C0C;line-height: 57px;font-family: 'FontsFreeNetMontserratSemiBold';}
+a{color: #CAAE73}a:hover{ color: #84571E; }.btn{background-color: #CAAE73;color: #fff;box-shadow: 0 2px 7px rgba(62,62,76,.5)}
+.btn:hover{background-color: #84571E;color: #FFFFFF}
+
+
+
+/*================== header css ====================*/
+.googleMapModal .mapInPopup{overflow: hidden;border-radius: 10px 10px 0 0;}
+.alSpaMenuCard{height: 0;z-index: 9999;width: 0;position: fixed;background-color: #0C0C0C;-webkit-transition: .3s;transition: .3s;overflow: hidden;left: 0;right: 0;margin: auto;
+    top: 50%;
+    transform: translate(0, -50%);}
+button.alMenuClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #84571E;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 50px;
+    line-height: 53px;
+    color: #fff;
+    padding: 0;
+    border: 0;
+}
+.close.text-danger{color:#84571E !important; }
+.alSpaMenuCard.active{height: 100vh;width: 100%;}
+.alSpaMenuCard ul {
+    text-align: center;   
+}
+.alMobileLocations {
+    margin-top: -120px;
+    position: relative;
+}
+.alSpaMenuCard.active ul li a{font-size: 24px;}
+.alSpaMenuCard ul li{margin-bottom: 15px;}
+.alSpaMenuCard ul li a{color: #fff;-webkit-transition: 0.5s;transition: 0.5s;font-size: 24px;}
+.alSpaMenuCard ul li a:hover{color: #84571E; padding-left: 15px;}
+.alspalogo{
+    position: relative;
+    left: 0;
+    top: 0
+}
+.darkLogo{
+    display: none
+}
+.header .navbar:before{
+    background: linear-gradient(180deg, #0C0C0C 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.7;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%
+}
+.alFindSec{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px 5px 5px 30px;
+    box-shadow: 0 1px 7px rgba(62,62,76,.2)
+}
+.alFindSec span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0C0C0C;
+    opacity: .5;
+    padding-right: 30px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'MontserratRegular';
+}
+.alNumber input.inputNumbers{
+	font-family: 'MontserratRegular';
+}
+.alLocation span:before{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 2px
+}
+.alFindSec span.minus, .alFindSec span.plus{
+    font-size: 20px
+}
+.alFindGo .btn{
+    background-color: #CAAE73;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    color: #fff;
+}
+.alFindGo .btn:hover{
+	background-color: #84571E;
+}
+.darkHeader .darkLogo{
+    display: block
+}
+.darkHeader .lightLogo{
+    display: none
+}
+.darkHeader.header .navbar:before{
+    background:#fff;
+    opacity: 1;
+    box-shadow: 0 1px 7px rgba(62,62,76,.2)
+}
+.darkHeader .rightHead ul li a svg path,.darkHeader .rightHead ul li a svg{
+    fill: #000
+}

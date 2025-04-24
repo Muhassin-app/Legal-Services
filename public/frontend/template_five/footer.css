@@ -1,0 +1,51 @@
+.footer-theme .sub-title li a, .footer-theme .sub-title li span {
+    padding: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #777;
+    line-height: 2;
+}
+.footer-theme .sub-title li{padding: 0;}
+.footer-theme .sub-title ul.social-links li {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+ul.social-links.d-flex a span {
+    font-size: 0;display: none;
+}
+.footer-theme .sub-title li a:before{display: none;}
+ul.social-links.d-flex a {
+    height: 40px;
+    width: 40px;
+    background-color: var(--theme-deafult);
+    display: inline-block;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.footer-theme .sub-title li .al_QRcode a {
+    display: block;
+}
+ul.contact-list.al i.fa {
+    height: 24px;
+    color: #fff;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 5px;
+    background-color: var(--theme-deafult);
+    text-align: center;
+    top: 5px;
+}
+.al_body_template_five .footer-theme .sub-title .contact-list li span{line-height: 1;}
+.al_body_template_five .footer-theme .sub-title .contact-list li{padding-left: 40px !important;}
+footer#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.al_footer_template_five section.section-b-space.light-layout.pb-0 {
+    padding-top: 30px !important;
+}
+

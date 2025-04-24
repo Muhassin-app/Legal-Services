@@ -1,0 +1,368 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #43bee1;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.error {
+    color: red;
+}
+.chat-list-item {
+cursor: pointer;
+padding: 10px 0;
+margin: 0;
+}
+.mdi-circle:before {
+content: "󰝥";
+}
+.chat-box-wrapper {
+    max-height: 580px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.px-4.pt-3.chat-box {
+    padding: 0 !important;
+}
+.chat-input-section {
+    background-color: #fff;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+.mdi-set,
+.mdi:before {
+display: inline-block;
+font: normal normal normal 24px/1 Material Design Icons;
+font-size: inherit;
+text-rendering: auto;
+line-height: inherit;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/* .left-message{
+    float: left;
+} */
+.search-icon svg{vertical-align: top;}
+.search-icon {position: absolute;z-index: 4;font-size: 20px;line-height: 38px;left: 20px;top: 25px;}
+.chat-list-item span {font-size: 10px;word-wrap: break-word;color: #5e5c5c;font-style: italic;font-weight: 600;}
+.chat-list-item h6{display: inline-block;font-size: 12px;font-weight: 600 !important;color: #343a40;margin-bottom: 0px !important;}
+.outer_search input{padding-left: 30px;border-radius: 6px;}.orderChatMessage {white-space: nowrap;text-overflow: ellipsis;overflow: hidden;color: #777;font-size: 14px;
+}
+.conversation-name {
+    font-size: 14px;
+}
+.alPhoneNumberDetails ul li span {
+    font-size: 12px;line-height: normal;
+}
+.alNameTime.last_message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderNumber {background-color: #6eccf14d;color: #43BEE1;text-align: center;border-radius: 3px;font-size: 14px;font-weight: 600;}
+.messages-box .list-group{overflow: hidden;background: #f5f5f5;border-bottom: 1px solid#eee;}
+.conversation-head {border-bottom: 1px solid #E7F6FC;}
+.alOrderDetailsBox .alOrderDetails span, .alOrderDetailsBox .alOrderDetails, .conversationText p.chatUserName {color: #43BEE1;font-weight: 600;}
+.alUserName {font-weight: 600;font-size: 16px;text-transform: capitalize;}
+.alPhoneNumber {font-size: 12px;color: #43BEE1;font-weight: 600;line-height: normal;}
+.alOrderDetailsBox p {color: #777;font-size: 13px;}.alOrderDetailsBox p span {color: #000;font-weight: 600;}
+.conversation-list .ctext-wrap p.chat-time{font-size: 12px;}
+.chat-input-section .col-auto a:nth-child(1) {display: none;}
+.chat-list-item:hover {background: #eee;}
+.messages-box .list-group.active{background-color: #fff;}
+.conversationText {
+    width: 100% !important;
+    position: relative !important;
+}
+.conversation-list {
+    width: 100%;
+}
+.left-message .conversation-list .ctext-wrap {
+    text-align: left;
+    float: left;
+    background: #eee;
+}
+.right-message .conversation-list .ctext-wrap {
+    text-align: right;
+    float: right;
+    background: #5ddaff24;
+}
+.conversation-list .ctext-wrap {
+    background: #f1f3fa;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+}
+.conversation-list .ctext-wrap p {
+    margin: 0;
+    padding-top: 3px;
+    font-size: 12px;
+}
+.conversation-name.text-left.text-primary.mr-4 {
+    margin-right: 20px !important;
+}
+.chat-box .mb-4{margin-bottom: 0px !important;}
+.ctext-wrap {
+    background-color: #E7F6FC;
+    border-radius: 15px 15px 15px 0;
+    width: auto;
+    max-width: 70%;
+    float: left;
+    position: relative;
+}
+.conversation-list{width: 100%;}
+.right-message .conversation-list .ctext-wrap {
+    text-align: right;
+    float: right;
+    background: #5ddaff24;
+}
+.left-message .conversation-list .ctext-wrap {
+    text-align: left;
+    float: left;
+    background: #eee;
+}
+.left-message .conversation-list .ctext-wrap::after{content: inherit;}
+.right-message .conversation-list .ctext-wrap::after{content: inherit;}
+
+.left-message .conversation-list .ctext-wrap::before{
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #eee;
+    border-width: 6px;
+    margin-right: 0;
+    border-right-color: #eee;
+    top: -11px;
+    left: 0;
+}
+.chat-list-container {
+    background: #969ea312;
+    padding-right: 0px !important;
+    min-height: 780px;
+    max-height: 780px;
+    overflow-y: auto;
+    height: 100%;
+}
+.right-message .conversation-list .ctext-wrap::before {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #E7F6FC;
+    border-width: 6px;
+    margin-left: 0;
+    border-right-color: #E7F6FC;
+    top: -11px;
+    right: 0;
+}
+.alPhoneNumberDetails li img {
+    width: 30px;
+    height: 30px;
+}
+.alPhoneNumberDetails ul li {
+    list-style: none;
+}
+.user_data_left img {
+    width: 24px;
+    height: 24px;
+}
+.user_data_left span {
+    position: inherit;
+}
+.user_show a {
+    display: inline-block;
+    width: 20px;
+    float: unset;
+    margin: 0 auto;
+}
+.user_show{
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+/* ======= Dasshbord vendorUser css 30/06/2023  ======== */
+.chat-body {
+    position: relative;
+}
+.chat-body::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(http://192.168.100.245:9090/assets/libs/chat/images/bg-chat.jpg);
+    background-size: 30%;
+    background-repeat: repeat;
+    opacity: .3;
+}
+div#rightChat {
+    position: relative;
+    background-color: transparent!important;
+}
+div#rightChat .chat-input-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px!important;
+    background: #fff;
+}
+div#rightChat  .conversation-head {
+    border-bottom: 1px solid #E7F6FC;
+    background: #fff;
+    box-shadow: 5px 0 10px #ccc ;
+}
+.chat-body > .col-4 {
+    background: #f5f5f5!important;
+}
+div#rightChat .chat-input-section form.row {
+    align-items: center;
+}
+div#rightChat .chat-input-section form.row .col-auto {
+    display: flex;
+    align-items: center;
+}
+div#rightChat .chat-input-section form.row .col-auto  a {
+    font-size: inherit!important;
+    line-height: 1.5;
+    
+}
+div#rightChat .chat-input-section form.row .col-auto  a:nth-of-type(2) {
+    margin-right: 12px;
+    line-height: 1;
+}
+
+.user_data {
+    overflow-x: auto;
+    padding-bottom:10px;
+    user-select: none;
+    flex-wrap: nowrap!important;
+}
+.user_data::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.user_data::-webkit-scrollbar
+{
+	width: 100%;
+	background-color: #F5F5F5;
+    height: 4px;
+    cursor: pointer;
+    
+}
+
+.user_data::-webkit-scrollbar-thumb
+{
+	background-color: #43BEE1;
+	border: 2px solid #43BEE1;
+    cursor: pointer;
+}
+#rightChat .conversation-head > div .alPhoneNumberDetails {
+    text-align: center;
+    margin: 0;
+    width: auto;
+    min-width: 200px;
+}
+.user_show .user_data_left{
+    display: none;
+}
+.user_show .user_data_left:nth-of-type(1), .user_show .user_data_left:nth-of-type(2), .user_show .user_data_left:nth-of-type(3), .user_show .user_data_left:nth-of-type(4){
+    display: inline-block;
+}
+@media(max-width:1600px){
+    .user_data_left img {
+        width: 18px;
+        height: 18px;
+    }
+    .user_show a{
+        width: auto;
+    }
+    .orderNumber{
+        font-size: 12px;
+    }
+}
+@media(max-width:1499px){
+    .chat-box-wrapper{min-height: 390px;
+        max-height: 390px;}
+    .chat-list-container {
+        min-height: 590px;
+        max-height: 590px;
+    }
+    .user_data_left img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+
+@media(max-width:1420px){
+     .user_show .user_data_left:nth-of-type(4){
+        display: none;
+     }
+}
+
+@media(max-width:1299px){
+    .chat-box-wrapper{min-height: 340px;
+        max-height: 340px;}
+    .chat-list-container {
+        min-height: 540px;
+        max-height: 540px;
+    }
+    .user_show .user_data_left:nth-of-type(3){
+        display: none;
+     }
+     .orderNumber {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:767px){
+    .chat-list-container {
+        min-height: inherit;
+        max-height: 450px;
+        overflow-y: auto;
+        margin-bottom: 25px;
+    }
+    .chat-box-wrapper {
+        min-height: 430px;
+        max-height: 430px;
+    }
+}
+
+@media(max-width:576px){
+    div#rightChat .conversation-head{
+        display: block;
+    }
+    div#rightChat .conversation-head > div {
+        max-width: 100%;
+        margin: 5px 0;
+        flex: unset;
+    }
+    #rightChat .conversation-head > div .alPhoneNumberDetails{
+        min-width: 130px;
+    }
+}

@@ -1,0 +1,876 @@
+@font-face {
+font-family: 'Armonioso';
+src: url('../hokitch/fonts/armonioso-trial-webfont.woff2') format('woff2'),
+url('../hokitch/font/armonioso-trial-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'gothamblack';
+src: url('../hokitch/fonts/gotham-black-webfont.woff2') format('woff2'),
+url('../hokitch/font/gotham-black-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'gothambold';
+src: url('../hokitch/fonts/gotham-bold-webfont.woff2') format('woff2'),
+url('../hokitch/font/gotham-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'gothammedium';
+src: url('../hokitch/fonts/gothammedium-webfont.woff2') format('woff2'),
+url('../hokitch/font/gothammedium-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'gothamlight';
+src: url('../hokitch/fonts/gothamlight-webfont.woff2') format('woff2'),
+url('../hokitch/font/gothamlight-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+ *{
+        margin: 0px;
+        padding: 0px;
+    }
+html, body {
+        overflow-x: hidden;
+    }
+body{
+        box-sizing: border-box;
+    }
+    p{
+    font-family: "Gotham", Sans-serif;
+    line-height: 1.4 !important;
+}
+
+/*----Home hokitch  page css here=----------- */
+.process-child:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 0.5px solid #e9e9e9;
+    width: 150px;
+    border-color: #FFB005;
+    border-style: dashed;
+    left: 100%;
+}
+
+.process1:hover .process-child span {
+    box-shadow: 0px 10px 50px 0px rgb(0 0 0 / 15%) !important;
+    border-radius: 50%;
+}
+.process1:hover .custom-text1 span {
+    background: #000 !important;
+}
+/*==--------------------------==end here====-----=*/
+
+@media screen and (min-width: 1921px) {
+	.service_moment{
+		margin-top: 3% !important;
+	}
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1500px){
+    .head-right {
+    padding: 15px 0px !important;
+}
+}
+
+@media  screen and (min-width: 1025px) and (max-width: 1365px) {
+	.head-right {
+    padding: 20px 0px !important;
+}
+.we_are {
+    margin: 0px 0px !important;
+}
+.svg-img1 svg {
+    top: -54px !important;
+}
+.food {
+    padding-bottom: 0px !important;
+}
+.we_are h3 {
+    margin-top: 30px !important;
+}
+.service_moment {
+    width: auto !important;
+    padding: 30px 20px  20px 20px!important;
+}
+.banner_section {
+    padding: 40px 20px !important;
+}
+.set-res p {
+    line-height: 20px !important;
+    font-size: 10px !important;
+}
+.center {
+    width: auto !important;
+}
+.right_colomn {
+    width: auto !important;
+}
+.left-column {
+    width: auto !important;
+}
+.brand-build {
+    width: auto !important;
+}
+
+/*----food partner page css here-------*/
+.sign_in {
+    padding: 20px 0px !important;
+}
+.wrapper-hokies {
+    width: auto !important;
+    margin: 0px 30px !important;
+}
+.outer-hokitch {
+    justify-content: center;
+}
+.outer-align-hokitch {
+}
+.view-result {
+    width: auto !important;
+    margin: 32px 20px !important;
+}
+.wrapper-solution {
+    width: auto !important;
+}
+.outer-align-hokitch {
+    justify-content: center;
+    margin: 20px 20px !important;
+
+}
+.left-child1 {
+    position: relative;
+}
+.ds_custom_text:after {
+    border-color: #FFB005;
+    border-style: dashed;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    left: -30px;
+    top: 33px;
+    border-width: 1px !important;
+}
+.outer-coulmn1:hover .ds_custom_text {
+    background: #000 !important;
+    display: inline-block;
+}
+.outer-coulmn1:hover .ds_custom_text1 {
+    background: #000 !important;
+    display: inline-block;
+}
+.outer-coulmn1:hover .left-child1 {
+    box-shadow: 0px 10px 50px 0px rgb(0 0 0 / 15%) !important;
+}
+.button-wrapper a:hover {
+    color: #ffffff;
+    background-color: #F05123 !important;
+}
+.result-btn a:hover {
+    color: #ffffff;
+    background-color: #F05123 !important;
+}
+/*==========-----------=end here==----------------------===*/
+/*-------homepage responsive css here---*/
+.kitch-work1 {
+    width: auto !important;
+}
+.wrapper-list {
+    width: auto !important;
+}
+/*customber review section css ------*/
+.review_outer {
+    width: auto !important;
+}
+}
+
+@media  screen and (min-width: 820px) and (max-width: 1180px) {
+.head-right {
+    padding: 12px 0px !important;
+}
+.set-res {
+    display: inherit !important;
+}
+.left-text {
+    width: auto !important;
+    padding: 20px 20px !important;
+}
+.right-text {
+    width: auto !important;
+    padding: 20px 20px !important;
+}
+.banner_section {
+    padding: 20px 20px !important;
+}
+.service_moment {
+    width: auto !important;
+    padding: 0px 20px !important;
+}
+.we_are .khalid-left {
+    padding: 10px 20px !important;
+}
+.bg-inner {
+    width: auto !important;
+}
+.svg-img1 svg {
+    top: -65px !important;
+}
+.we_are {
+    margin: 10px 0px !important;
+}
+.we_are h3{
+    margin-top: 0px !important;
+}
+.center {
+    width: auto !important;
+}
+.right_colomn {
+    width: auto !important;
+}
+.left-column {
+    width: auto !important;
+}
+.brand-build {
+    width: auto !important;
+}
+.sign_in {
+    padding: 20px 0px !important;
+}
+.wrapper {
+    width: auto !important;
+}
+.outer-coulmn1 {
+    width: 70% !important;
+    margin: 0px auto !important;
+}
+.wrapper-hokies {
+    width: auto !important;
+}
+.wrapper_why {
+    width: auto !important;
+    margin: 20px 20px !important;
+}
+.hokich-matter {
+    width: auto !important;
+}
+.view-result {
+    width: auto !important;
+    margin: 40px 20px !important;
+}
+.wrapper-solution {
+    width: auto !important;
+    margin: 0px 20px !important;
+}
+.bg-child {
+    width: auto !important;
+}
+.kitch-work1 {
+    width: auto !important;
+}
+.wrapper-list {
+    width: auto !important;
+}
+
+.review_outer {
+    width: auto !important;
+    display: inherit !important;
+}
+.testimonial-video {
+    width: 100% !important;
+    text-align: center !important;
+}
+.testimonial-text {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+.svg-img1 svg {
+    top: -74px !important;
+}
+.set_product {
+    display: inherit !important;
+}
+.wrapper-right_text {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+.testimonial-video iframe {
+    width: 80% !important;
+    height: 298px !important;
+}
+.order-text {
+    display: flex;
+    align-items: center;
+}
+.step-child1 {
+    display: inherit !important;
+    align-items: inherit !important;
+}
+.process1 {
+    display: inherit !important;
+    float: none !important;
+    width: 100% !important;
+    text-align: center;
+}
+.wrapper-child2 {
+    display: inherit !important;
+}
+.wrapper-left_img {
+    width: 100% !important;
+    text-align: center !important;
+}
+.wrapper-right_text {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+.review_outer {
+    display: inherit !important;
+    width: auto !important;
+}
+.testimonial-video {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+.testimonial-text {
+    width: 100% !important;margin-top: 50px !important;}
+.banner_homepage {
+    height: 50vh !important;
+}
+.outer-coulmn1{
+        width: 90% !important;
+    margin: 0px auto !important;
+}
+.center-logo img {
+    width: 56% !important;
+}
+
+.outer-hokitch {
+    display: inherit !important;
+}
+.left-content {
+    width: 100% !important;
+}
+.outer-align-hokitch {
+    display: inherit !important;
+}
+.hokitch-source {
+    width: 100% !important;
+}
+.hokitch_women {
+    width: auto !important;
+}
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+.head-right {
+    padding: 12px 0px !important;
+}
+.set-res {
+    display: inherit !important;
+}
+.left-text {
+    width: auto !important;
+    padding: 20px 20px !important;
+}
+.right-text {
+    width: auto !important;
+    padding: 20px 20px !important;
+}
+.banner_section {
+    padding: 20px 20px !important;
+}
+.service_moment {
+    width: auto !important;
+    padding: 0px 20px !important;
+}
+.we_are .khalid-left {
+    padding: 10px 20px !important;
+}
+.bg-inner {
+    width: auto !important;
+}
+.process1 {
+    display: inherit !important;
+    float: none !important;
+    width: 100% !important;
+    text-align: center;
+}
+.svg-img1 svg {
+    top: -65px !important;
+}
+.we_are {
+    margin: 10px 0px !important;
+}
+.we_are h3{
+    margin-top: 0px !important;
+}
+.center {
+    width: auto !important;
+}
+.right_colomn {
+    width: auto !important;
+}
+.left-column {
+    width: auto !important;
+}
+.brand-build {
+    width: auto !important;
+}
+/*--------food partner page css start here------------*/
+.sign_in {
+    padding: 20px 0px !important;
+}
+.wrapper {
+    width: auto !important;
+}
+.outer-coulmn1 {
+    width: 70% !important;
+    margin: 0px auto !important;
+}
+.wrapper-hokies {
+    width: auto !important;
+}
+.wrapper_why {
+    width: auto !important;
+    margin: 20px 20px !important;
+}
+.hokich-matter {
+    width: auto !important;
+}
+.view-result {
+    width: auto !important;
+    margin: 40px 20px !important;
+}
+.wrapper-solution {
+    width: auto !important;
+    margin: 0px 20px !important;
+}
+.bg-child {
+    width: auto !important;
+}
+/*------------hokitch Homepage responsive css here-------------*/
+.kitch-work1 {
+    width: auto !important;
+}
+.wrapper-list {
+    width: auto !important;
+}
+/*client review css here-----*/
+.review_outer {
+    width: auto !important;
+    display: inherit !important;
+}
+.testimonial-video {
+    width: 100% !important;
+    text-align: center !important;
+}
+.testimonial-text {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+.head-right{
+	padding: 5px 0px !important;
+	}
+.set-res {
+    display: inherit !important;
+}
+.left-text {
+    width: 100% !important;
+    padding:3px !important;
+}
+.right-text {
+    width: 100% !important;
+    padding:3px !important;
+}
+.banner_section{
+	padding: 20px 20px !important;
+}
+.service_moment{
+	width: auto !important;
+}
+.set_product {
+    display: inherit !important;
+}
+.left-column img {
+    width: 100% !important;
+}
+.center {
+    margin: 20px 20px;
+}
+.food {
+    display: inherit !important;
+    padding-bottom: 20px !important;
+}
+.just-food {
+    padding-right: 20px !important;
+}
+.art-food {
+    padding: 20px 20px !important;
+    text-align: left !important;
+}
+.art-food p {
+    text-align: left !important;
+}
+.we_are {
+    display: inherit !important;
+    margin: 20px 0px !important;
+}
+.bg-inner {
+    width: auto !important;
+}
+.service_moment {
+    width: auto !important;
+}
+.right_colomn img {
+    width: 100% !important;
+}
+.service_moment {
+    width: auto !important;
+    padding: 30px 20px 20px 20px!important;
+}
+.logo_btm {
+    width: 100% !important;
+    padding: 10px 20px !important;
+}
+.logo {
+    text-align: center !important;
+    width: 100% !important;
+}
+.head-right {
+    width: auto !important;
+    text-align: center !important;
+    background: #f5f2f2;
+    margin: 0px 20px;
+    padding: 7px 0px !important;
+}
+.head-right h2 {
+    padding-right: 0px  !important;
+}
+.food h4 br {
+    display: none !important;
+}
+.svg-img1 svg {
+    position: absolute !important;
+    top: -73px !important;
+}
+.logo img {
+    width: 60% !important;
+    padding: 16px 0px;
+}
+header{
+    width: auto !important;
+    display: inherit !important;
+    margin-right: 0px !important;
+}
+.full_bg{
+    padding: 10px 10px !important;
+}
+.we_are h3{
+    margin-top: 0px !important;
+}
+.service_moment p {
+    padding-bottom: 0px !important;
+     text-align: center !important;
+}
+.food h4 {
+    margin-bottom: 10px !important;
+    text-align: center;
+}
+.left-column {
+    margin-bottom: 20px !important;
+}
+.right_colomn {
+    padding: 0px 5px !important;
+}
+.brand-build {
+    width: auto !important;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*-----------------food partner css start here---------------*/
+.header_left {
+    display: none;
+}
+.center-logo {
+    width: 100% !important;
+    text-align: center !important;
+}
+.sign_in {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 8px 0px !important;
+    background: #f3ddbb;
+        margin: 8px 0px 0px 0px;
+}
+.center-logo img {
+    width: 56% !important;
+}
+.center {
+    width: auto !important;
+}
+.right_colomn {
+    width: auto !important;
+}
+
+.left-column {
+    width: auto !important;
+}
+.wrapper {
+    width: auto !important;
+    padding:0px !important;
+}
+.icon-text .icon-child {
+    width: auto !important;
+}
+.outer-coulmn1 {
+    width: 85% !important;
+    margin: 0px auto !important;
+}
+.wrapper-hokies {
+    width: auto !important;
+}
+.wrapper_why {
+    width: auto !important;
+    margin: 0px 10px !important;
+}
+.outer-hokitch {
+    display: inherit !important;
+    align-items: inherit !important;
+}
+.left-content {
+    width:100% !important;
+    margin: 0 auto !important;
+}
+.hokitch_img img {
+    text-align: center;
+    width: 100%;
+}
+.hokich-matter {
+    width: auto !important;
+}
+.outer-align-hokitch .elemnt-box-content p {
+    font-size:12px !important;
+    line-height: 20px !important;
+}
+.outer-align-hokitch .hokitch-source figure img {
+    width: 100%;
+}
+.view-result {
+    width: auto !important;
+    margin: 20px 20px !important;
+    display: inherit !important;
+}
+.view-result .result-text {
+    width: 100% !important;
+    text-align: center;
+    margin: 20px 0px;
+}
+.view-result .result-btn {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 20px 0px !important;
+}
+.wrapper-solution {
+    width: auto !important;
+    margin: 20px 20px !important;
+}
+.bg-child {
+    width: auto !important;
+}
+.right-child1 {
+    width: auto !important;
+    float: right !important;
+    margin-top: 10px;
+}
+.eco-sys {
+    width: auto !important;
+    margin: 20px 10px;
+}
+.outer-align-hokitch {
+    display: inherit !important;
+    margin-top: 0px !important;
+}
+.hokitch-source {
+    width: auto !important;
+}
+.hokitch_women {
+    width: auto !important;
+    margin: 0px 20px !important;
+}
+.wrpr-solu-child {
+    padding: 20px 30px !important;
+}
+.hokitch-source .inner-text {
+    float: none !important;
+}
+/*-------homepage responsive css here------------*/
+.hokitch-order {
+    width: 90% !important;
+    padding: 20px 20px !important;
+}
+.kitch-work1 {
+    width: auto !important;
+}
+.step-child1 {
+    display: inherit !important;
+    align-items: inherit !important;
+    justify-content: inherit !important;
+}
+.process1 {
+    display: inherit !important;
+    flex-direction: row !important;
+    float: none !important;
+    width: auto !important;
+    text-align: center !important;
+}
+.process-child:before {
+    width: 60% !important;
+}
+.wrapper-list {
+    width: auto !important;
+    margin: inherit !important;
+}
+.wrapper-child2 {
+    display: inherit !important;
+    align-items: inherit !important;
+}
+.wrapper-left_img {
+    width: auto !important;
+    text-align: center;
+}
+.wrapper-right_text {
+    width: auto !important;
+}
+.align-set_text {
+    display: inherit !important;
+}
+.text-img {
+    width: 100% !important;
+}
+.comunity-child {
+    display: inherit !important;
+}
+.comunity-child figure img {
+    width: 75px !important;
+    height: 75px !important;
+    margin-bottom: 15px;
+}
+.review_outer {
+    width: auto !important;
+    display: inherit !important;
+}
+.testimonial-video {
+    width: 100% !important;
+    text-align: center !important;
+}
+.testimonial-text {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+.client_review .client_review .flickity-viewport{
+    overflow: visible !important;
+}
+.client_review .speak-customber p{
+    font-size: 10px !important;
+}
+.speak-customber {
+    width: 362px !important;
+}
+.customber_video {
+    width: 100% !important;
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+.customber_video iframe {
+    width: 100% !important;
+}
+.testimonial-text {
+    margin-top: 25px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+.banner_homepage{
+        height: 50vh !important;
+    }
+.process-child:before {
+    height: 28px;
+    width: auto !important;
+    left: 63px !important;
+    bottom: -29px;
+}
+.hokitch-order {
+    width: 70% !important;
+    padding: 20px 20px !important;
+}
+.text-style p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    letter-spacing: 0.2px;
+}
+.wrapper-right_text p span {
+    font-size: 28px !important;
+        line-height: 40px !important;
+}
+.hokitch-source .inner-text {
+   vertical-align: top;
+   }
+   .client_review .client_review .flickity-viewport{
+    overflow: visible !important;
+}
+.client_review .speak-customber p{
+    font-size: 10px !important;
+}
+.speak-customber {
+    width: 260px !important;
+}
+.client_review .text-test p {
+ font-size: 26px !important;
+    padding-top: 20px;
+}
+.customber_video {
+    width: 100% !important;
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+.customber_video iframe {
+    width: 100% !important;
+}
+.order-text {
+    display: flex !important;
+    align-items: center !important;
+}
+.wrapper {
+    width: auto !important;
+    padding: 15px !important;
+}
+iframe {
+    width: 340px !important;
+    height:250px !important;
+}
+.review_column .flickity-viewport {
+    height:275px !important;
+}
+
+}
+

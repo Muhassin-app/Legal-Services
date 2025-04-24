@@ -1,0 +1,24 @@
+.footer-contant li{display:block}.payment-card-bottom li{display:inline-block}.royo_whatsapp_img{position:fixed;z-index:99999;bottom:7%;left:1%}.royo_whatsapp_img img{width:50px}
+.footer-theme .sub-title li a{position:relative;color:#777}
+.dark .footer-theme .sub-title li a{color: #fff;}
+.al_footer_template_three{background-color:#f9f9f9}.footer-theme .sub-title li a,.footer-theme .sub-title li span{padding:0;margin-bottom:10px;/*text-transform:capitalize;*/font-size:16px;color:#777;line-height:2}ul{margin:0}
+.tap-top.top-cls i.fa{color:#fff}.al_QRcode.col-12 a{display:block}.theme-layout-version{opacity:0}.row .col,.row div[class*=col-]{position:relative}.footer-theme .sub-title .contact-list li i{top:4px!important;font-size:24px}.footer-theme .sub-title .contact-list li span{padding:0}.footer-theme .sub-title li .al_QRcode a{display:block}ul.social-links{width:max-content}.dark ul.contact-list.al li span{color:#fff}
+.tap-top.top-cls div{position: absolute;left: 0;right: 0;top: 50%;-webkit-transform: translate(0, -50%);transform: translate(0, -50%);}
+.footer-theme .sub-title .contact-list li{line-height: 1.5;padding-top: 0;margin-bottom: 10px;padding-left: 30px !important;display: block;}
+.payment-card-bottom.text-center.d-flex.mb-2 li{display: inline-block;}
+.footer-theme .sub-title .contact-list li i.fa.fa-map-marker{left: 5px;}
+ul.social-links a span{font-size: 0 !important;}
+body #page-container #footer .footer-theme .sub-title .contact-list li span{padding-left: 0;}
+.al_body_template_three footer .social-links li{margin: 0 10px 0 0;}
+.dark.al_body_template_three .social-links li i{color: #fff;}
+.footer-theme .sub-title li:hover a{color: var(--theme-deafult);}
+.footer-theme .sub-title li:hover a:before{display: none;}
+.al_body_template_three .social-links li i{font-size: 24px;background-color: transparent;box-shadow: none;color: #777;width: auto;height: auto;}
+body .footer-theme .sub-title li{padding-top: 0;}
+body .footer-theme .sub-title h4{margin-bottom: 15px;text-transform: capitalize;letter-spacing: 0px;}
+body .footer-theme .sub-title li a{font-size: 14px;}
+body #page-container #footer .footer-theme .sub-title .contact-list li span{font-size: 14px;}
+
+@media(max-width:767px){
+.tap-top{width: 35px;height: 35px;line-height: 35px;}
+}

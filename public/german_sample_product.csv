@@ -1,0 +1,2 @@
+Artikelnummer,Titel,Description (HTML),Beschreibung,Kategorie,Option1-Name,Option1-Wert,Option2 Name,Option2-Wert,Option3 Name,Option3-Wert,Variant SKU,Variantenpreis,Variantenmenge,Variantenvergleich zum Preis,Variante steuerpflichtig,Bildquelle,Variantenkostenpreis,Marke,Steuerkategorie,Produktmenge,Produktpreis,Produkt zum Preis vergleichen,Erweiterung,Stichworte
+example-t-shirt,Example T-Shirt,,TRUE,Fashion,Size,Small,Color,White,,,Tshirt-small-red,25,100,23.99,TRUE,https://burst.shopifycdn.com/photos/green-t-shirt.jpg,50,zara,,,,,"abc,abs,asd","abc,non-veg"
