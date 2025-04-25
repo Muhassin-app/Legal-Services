@@ -224,9 +224,9 @@
                                                 </li>
                                             @endif
                                             @if(@auth()->user()->can('accounting-promo-codes') || Auth::user()->is_superadmin == 1)
-                                                <!-- <li>
+                                                <li>
                                                     <a href="{{route('account.promo.code')}}">{{ __('Promo Codes') }}</a>
-                                                </li> -->
+                                                </li>
                                             @endif
                                             @if(@auth()->user()->can('accounting-taxes') || Auth::user()->is_superadmin == 1)
                                                 <li>
